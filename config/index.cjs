@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oxIas6Pq8BfnDEVb7vbqA4XN2k20',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Av4y06s0VOzx0vW1hC9QrgQnuc5iIgKAzaMYF9vTbqc',
+      useTemplateId: 'lhl7Bsj8MhJwWJ44_FX8Psh5dW480ezIqYqXygB0Sdo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-03',
       festivals: [
@@ -44,7 +44,10 @@ const USER_CONFIG = {
   ],
 
 
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
+ SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+    { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '',
 
   CALLBACK_USERS: [
