@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oxIas6Pq8BfnDEVb7vbqA4XN2k20',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '4m6v8I7-qQqxyntXFwNwf8BiXvHqTM2UXyH7rKp28k0',
+      useTemplateId: '1ILoZxwwEpfpaVN0mabg3bvQrjn3lFZRavBd0tMLQF0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-03',
       festivals: [
@@ -46,7 +46,7 @@ const USER_CONFIG = {
 
  SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    { keyword: 'encourage_oneself', contents: '每天说点没意义的话才是有意义的生活-爱你哟' },
+    { keyword: 'encourage_oneself', contents: '说点没意义的话才是有意义的生活' },
      ],
    // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '',
